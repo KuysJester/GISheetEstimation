@@ -14,7 +14,6 @@ st.markdown('<h1 style="text-align: center;">Duct Visualization from GI Sheet</h
 # Sidebar section with input fields
 with st.sidebar:
     # Header and Logo
-    st.image(r"C:\Users\Admin\Desktop\Streamlit\MEPFS Logo.png", width=200)  # Sidebar logo
     st.header("Input Dimensions")
     
     # Input fields
@@ -30,7 +29,6 @@ with st.sidebar:
     st.write("")  # You can add more blank lines if needed for spacing
 
     # Footer with the logo at the top
-    st.image(r"C:\Users\Admin\Desktop\Streamlit\WalterMart Logo.png", width=150)  # Footer logo
     st.markdown('<div class="footer">WalterMart Duct Visualization Tool © 2024</div>', unsafe_allow_html=True)
 
 # Calculate total length required to fold the duct using the main formula
